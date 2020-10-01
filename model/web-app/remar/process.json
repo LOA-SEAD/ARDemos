@@ -1,0 +1,45 @@
+{
+  "name": "ARDemo",
+  "uri": "ardemo",
+  "type": "unity",
+  "version": 1,
+  "tasks": [
+    {
+      "name": "Banco de Questões",
+      "uri": "question",
+      "description": "Criar/editar/selecionar um banco de questões para o jogo.",
+      "type": "text_database",
+      "dependencies": null,
+      "outputs": [
+        {
+          "name": "Question1.txt",
+          "type": "txt",
+          "path": ""
+        },
+        {
+          "name": "Question2.txt",
+          "type": "txt",
+          "path": ""
+        },
+        {
+          "name": "Question3.txt",
+          "type": "txt",
+          "path": ""
+        },
+        {
+          "name": "Question4.txt",
+          "type": "txt",
+          "path": ""
+        }
+      ]
+    }
+
+  ],
+  "outputs": [
+    "desktop"
+  ],
+  "vars": {
+    "width": 800,
+    "height": 600
+  }
+}

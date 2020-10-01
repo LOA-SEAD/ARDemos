@@ -1,0 +1,13 @@
+{
+  "collection_name": "ardemo",
+  "structure": [
+    "enunciado",
+    "alternativaa",
+    "alternativab",
+    "alternativac",
+    "alternativad",
+    "respostacerta",
+    "resposta",
+    "dica"
+  ]
+}
