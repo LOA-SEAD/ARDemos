@@ -1,0 +1,29 @@
+{
+  "name": "ScaleAR",
+  "uri": "scalear",
+  "type": "unity",
+  "version": 1,
+  "tasks": [
+    {
+      "name": "Banco de Modelos",
+      "uri": "model3D",
+      "description": "Criar/editar/selecionar um banco de modelos para o aplicativo.",
+      "type": "text_database",
+      "dependencies": null,
+      "outputs": [
+        {
+          "name": "path.txt",
+          "type": "txt",
+          "path": ""
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "android"
+  ],
+  "vars": {
+    "width": 800,
+    "height": 600
+  }
+}
