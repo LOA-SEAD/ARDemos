@@ -1,0 +1,16 @@
+https://raw.githubusercontent.com/FernandoSNunes/Modelos/master/Human_heart.obj
+0 0 0
+81 19 12
+0,054
+https://raw.githubusercontent.com/FernandoSNunes/Modelos/master/Wood_Table.obj
+0.16 -0.02 -0.17
+71 0 0
+1.258
+https://raw.githubusercontent.com/gpvigano/AsImpL/master/models/OBJ_test/objtest_zup.obj
+0 0 0
+24 176 152
+0.202
+https://raw.githubusercontent.com/FernandoSNunes/Modelos/master/16834_hand_v1_NEW.obj
+0.867 -0.245 -0.994
+18 182 0
+0.059
