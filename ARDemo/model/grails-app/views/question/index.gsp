@@ -18,12 +18,6 @@
 
 <div class="row">
     <div id="chooseQuestion" class="col s12 m12 l12">
-        <br>
-        <div class="row">
-            <div class="col s6 m3 l3 offset-s6 offset-m9 offset-l9">
-                <input  type="text" id="SearchLabel" placeholder="Buscar"/>
-            </div>
-        </div>
         <div class="row">
             <div class="col s12 m12 l12">
                 <table class="highlight" id="table" style="margin-top: -30px;">

@@ -80,12 +80,13 @@ function _edit(tr){
                     default :
                         console.log("Alternativa correta inválida");
                 }
-                $("#editTitle").attr("value",questionInstance[0]);
+
                 $("#labelTitle").attr("class","active");
                 $("#labelAnswer1").attr("class","active");
                 $("#labelAnswer2").attr("class","active");
                 $("#labelAnswer3").attr("class","active");
                 $("#labelAnswer4").attr("class","active");
+                $("#editTitle").attr("value",questionInstance[0]);
                 $("#editAnswers0").attr("value",questionInstance[1]);
                 $("#editAnswers1").attr("value",questionInstance[2]);
                 $("#editAnswers2").attr("value",questionInstance[3]);

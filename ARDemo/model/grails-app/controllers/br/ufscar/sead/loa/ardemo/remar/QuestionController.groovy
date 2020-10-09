@@ -165,8 +165,10 @@ class QuestionController {
         bw.write(question.title.replace("\"","\\\"") + "\n")
         bw.write(question.answers[question.correctAnswer].replace("\"","\\\"") + "\n")
         for (int i = 0; i < 4; i++) {
-            bw.write(question.answers[i].replace("\"","\\\"") + "\n")
+            if (i != question.correctAnswer)
+                bw.write(question.answers[i].replace("\"","\\\"") + "\n")
         }
+        bw.write(question.answers[question.correctAnswer].replace("\"","\\\"") + "\n")
         bw.close();
     }
 }
